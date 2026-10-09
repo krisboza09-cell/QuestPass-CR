@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuestPass CR | Contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">QuestPass CR</a>
+
+        <nav aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="reservar.html">Reservar</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="seccion-contacto">
+
+            <h1>Contacto</h1>
+
+            <p>
+                Completa el formulario para comunicarte con QuestPass CR.
+            </p>
+
+            <form class="formulario-contacto">
+
+                <div class="campo-formulario">
+                    <label for="nombre-contacto">Nombre</label>
+
+                    <input
+                        type="text"
+                        id="nombre-contacto"
+                        name="nombre"
+                        required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="correo-contacto">Correo</label>
+
+                    <input
+                        type="email"
+                        id="correo-contacto"
+                        name="correo"
+                        required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="asunto">Asunto</label>
+
+                    <input
+                        type="text"
+                        id="asunto"
+                        name="asunto"
+                        required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensaje">Mensaje</label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        required></textarea>
+                </div>
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>QuestPass CR</p>
+    </footer>
+
+</body>
+
+</html>
