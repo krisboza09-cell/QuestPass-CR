@@ -135,6 +135,15 @@ main section>a:focus {
     border: 1px solid #d9e0e7;
 }
 
+.tarjeta-experiencia{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-experiencia:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(18, 53, 91, 0.12);
+}
+
 .tarjeta-experiencia h2 {
     margin-top: 0;
     color: #12355b;
