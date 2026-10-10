@@ -8,14 +8,19 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fa;
     color: #1f2933;
 }
 
+
 main {
-    min-height: 70vh;
+    flex: 1;
 }
+
 
 main section {
     padding: 100px 8%;
@@ -53,7 +58,7 @@ header {
     gap: 20px;
 }
 
-header > a {
+header>a {
     color: white;
     font-size: 24px;
     font-weight: bold;
@@ -85,7 +90,7 @@ nav a:focus {
    PÁGINA DE INICIO
    ========================= */
 
-main section > a {
+main section>a {
     display: inline-block;
     background-color: #e76f51;
     color: white;
@@ -95,11 +100,11 @@ main section > a {
     font-weight: bold;
 }
 
-main section > a:hover {
+main section>a:hover {
     background-color: #c9573c;
 }
 
-main section > a:focus {
+main section>a:focus {
     outline: 3px solid #12355b;
     outline-offset: 4px;
 }
@@ -287,7 +292,7 @@ form button:focus {
     padding: 60px 8%;
 }
 
-.seccion-formulario > p {
+.seccion-formulario>p {
     margin-bottom: 35px;
 }
 
@@ -339,7 +344,7 @@ form button:focus {
     padding: 60px 8%;
 }
 
-.seccion-contacto > p {
+.seccion-contacto>p {
     margin-bottom: 35px;
 }
 
@@ -352,7 +357,7 @@ form button:focus {
     padding: 60px 8%;
 }
 
-.seccion-login > p {
+.seccion-login>p {
     margin-bottom: 35px;
 }
 
@@ -361,7 +366,7 @@ form button:focus {
 }
 
 /* =========================
-.opciones-login {
+   opciones-login {
    ========================= */
 .opciones-login {
     margin-top: 20px;
