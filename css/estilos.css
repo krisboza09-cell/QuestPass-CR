@@ -312,6 +312,24 @@ form button:focus {
     font-weight: bold;
 }
 
+.campo-condiciones a {
+    color: #1d4f91;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.campo-condiciones a:hover {
+    color: #e56f50;
+}
+
+.campo-condiciones a:focus-visible {
+    outline: 2px solid #1d4f91;
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+
 
 /* =========================
    PÁGINA DE CONTACTO
